@@ -1,0 +1,1 @@
+function [row_of_min, column_of_min] = indexesOfMin(A)[min_of_each_column, row_containing_min_of_each_column] = min(A);[min_value, column_containing_min_value] = min(min_of_each_column);row_of_min = row_containing_min_of_each_column(column_containing_min_value);column_of_min = column_containing_min_value;end
